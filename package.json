@@ -1,0 +1,32 @@
+{
+	"name": "remindist",
+	"version": "1.0.0",
+	"description": "A web app that allows you to send yourself reminders to future you!",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"start": "nodemon --inspect -e js,html,hbs,sql,css,scss app.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/NoerGitKat/remindist.git"
+	},
+	"keywords": [
+		"Node",
+		"Frameworkless",
+		"JavaScript"
+	],
+	"author": "NoerGitKat",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/NoerGitKat/remindist/issues"
+	},
+	"homepage": "https://github.com/NoerGitKat/remindist#readme",
+	"devDependencies": {
+		"dotenv": "^8.0.0",
+		"nodemon": "^1.19.1"
+	},
+	"dependencies": {
+		"mime-types": "^2.1.24"
+	}
+}
